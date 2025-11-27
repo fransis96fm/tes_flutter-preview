@@ -1,57 +1,72 @@
-### Tes flutter preview di browser
+## Tes flutter preview di browser
 
 > [!NOTE]   
-> Disini saya menggunakan windows powershell untuk menjalankan beberapa cli flutter
+> Pada praktik ini digunakan Windows PowerShell untuk menjalankan beberapa perintah CLI Flutter.   
+
+
+### Implementasi   
 
 1. Buat project baru (**e.g.** `flutter create tes_preview`)     
    ```flutter
    flutter create <nama-project>
    ```
-
+   <img src="img/1.png" width="500">
 
 2. Masuk ke folder project (**e.g.** `cd tes_preview`)  
    ```bash
    cd <nama-project>
-   ```  
+   ```
+   <img src="img/2_1.png" width="500">  
 
-3. Buka file main.dart di `<nama-project>\lib\main.dart`  
+3. Buka file main.dart di `<nama-project>\lib\main.dart`
+   
+   <a href="gambar.png">
+      <img src="img/2.png" width="500">
+   </a>  
 
-4. Pada file `main.dart`, tambahkan import witget_previews
+
+5. Pada file `main.dart`, tambahkan import witget_previews
    ```flutter
    import 'package:flutter/widget_previews.dart';
-   ```   
+   ```  
+   <img src="img/3.png" width="500">
 
-5. pada bagian akhir code, tambahakan 
+6. pada bagian akhir code, tambahakan 
    ```flutter
    @Preview(name: 'My Sample Text')
    Widget mySampleText() {
      return const Text('Hello, World!');
    }
-   ```
-   > Simpan perubahan file main.dart 
+   ```   
+   <img src="img/4.png" width="500">  
+   
+   > Simpan perubahan file main.dart  
 
-6. Jalankan flutter doctor  
+7. Jalankan flutter doctor    
    ```flutter
    fluuter doctor
-   ```
+   ``` 
+   <img src="img/5.png" width="500"> 
 
-7. Jalankan flutter pub get
+8. Jalankan flutter pub get
    ```flutter
    flutter pub get  
    ```
+   <img src="img/6.png" width="500">   
 
    > Kalau ingin memperbarui ke versi terbaru dari semua dependency:
    > `flutter pub upgrade`   
 
-8. Jalankan preview
+9. Jalankan preview
    ```flutter
    flutter widget-preview start
-   ```
+   ```   
+   <img src="img/7.png" width="500">   
+   
+   Tampilan di browser (dalam praktik ini menggunakan chrome browser)  
+   <img src="img/8.png" width="500">
 
-9. Tampilan di browser (dalam praktik ini menggunakan chrome browser)  
-
-
-10. Lakukan modifikasi, contoh:
+11. Lakukan modifikasi, contoh:
    ```
    Text('HALO');
    ```
@@ -60,7 +75,7 @@
 
     update otomatis dilakukan saat perubahan disimpan.
 
-11. Menampilkan app  
+12. Menampilkan app  
     
     Ubah `Text('HALO');` jadi:
     ```
