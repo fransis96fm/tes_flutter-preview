@@ -71,7 +71,8 @@
    ```   
    <img src="img/8.png" width="500">
    
-   Kemudian simpan (`Ctrl+S`)  dan lihat perubahan
+   Kemudian simpan (`Ctrl+S`)  dan lihat perubahan   
+   <img src="img/8_2.png" width="500">
    
    update otomatis dilakukan saat perubahan disimpan.
 
@@ -81,12 +82,12 @@
     ```
     MyApp();
     ```   
+     Save dan lihat perubahan.   
     <img src="img/9.png" width="500">  
 
-    Save dan lihat perubahan.
+   
 
- 11. Hentikan running preview:
-
-    `Ctrl`+`C` kemudian `y` lalu tekan `Enter`
-    <img>
+ 11. Hentikan running preview:   
+     `Ctrl`+`C` kemudian `y` lalu tekan `Enter`   
+     <img src="img/10.png" width="500">  
 
