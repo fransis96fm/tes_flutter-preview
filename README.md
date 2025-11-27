@@ -24,13 +24,13 @@
    <img src="img/2.png" width="500">
 
 
-4. Pada file `main.dart`, tambahkan import witget_previews
+4. **Pada file `main.dart`, tambahkan import witget_previews**
    ```flutter
    import 'package:flutter/widget_previews.dart';
    ```  
    <img src="img/3.png" width="500">
 
-5. pada bagian akhir code, tambahakan 
+5. **pada bagian akhir code, tambahakan** 
    ```flutter
    @Preview(name: 'My Sample Text')
    Widget mySampleText() {
@@ -41,13 +41,13 @@
    
    > Simpan perubahan file main.dart  
 
-6. Jalankan flutter doctor    
+6. _**Jalankan flutter doctor**_    
    ```flutter
    fluuter doctor
    ``` 
    <img src="img/5.png" width="500"> 
 
-7. Jalankan flutter pub get
+7. _**Jalankan flutter pub get**_
    ```flutter
    flutter pub get  
    ```
@@ -56,7 +56,7 @@
    > Kalau ingin memperbarui ke versi terbaru dari semua dependency:
    > `flutter pub upgrade`   
 
-8. Jalankan preview
+8. **Jalankan preview**
     ```flutter
     flutter widget-preview start
     ```   
