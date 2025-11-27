@@ -24,13 +24,13 @@
    <img src="img/2.png" width="500">
 
 
-4. **Pada file `main.dart`, tambahkan import witget_previews**
+### 4. **Pada file `main.dart`, tambahkan import witget_previews**
    ```flutter
    import 'package:flutter/widget_previews.dart';
    ```  
    <img src="img/3.png" width="500">
 
-5. **pada bagian akhir code, tambahakan** 
+### 5. **pada bagian akhir code, tambahakan** 
    ```flutter
    @Preview(name: 'My Sample Text')
    Widget mySampleText() {
@@ -56,7 +56,7 @@
    > Kalau ingin memperbarui ke versi terbaru dari semua dependency:
    > `flutter pub upgrade`   
 
-8. **Jalankan preview**
+### 8. **Jalankan preview**
     ```flutter
     flutter widget-preview start
     ```   
@@ -65,7 +65,7 @@
    Tampilan di browser (dalam praktik ini menggunakan chrome browser)  
    <img src="img/8.png" width="500">
 
-9. Lakukan modifikasi, contoh:
+### 9. Lakukan modifikasi, contoh:
    ```
    Text('HALO');
    ```   
@@ -76,7 +76,7 @@
    
    update otomatis dilakukan saat perubahan disimpan.
 
-10. Menampilkan app  
+### 10. Menampilkan app  
     
     Ubah `Text('HALO');` jadi:
     ```
@@ -87,7 +87,7 @@
 
    
 
- 11. Hentikan running preview:   
+###  11. Hentikan running preview:   
      `Ctrl`+`C` kemudian `y` lalu tekan `Enter`   
      <img src="img/10.png" width="500">  
 
