@@ -20,9 +20,15 @@
 
 3. Buka file main.dart di `<nama-project>\lib\main.dart`
    
-   <a href="img/2.png">
+   <a href="">
       <img src="img/2.png" width="500">
-   </a>  
+   </a>    
+
+<p align="center">
+  <a href="img/2.png">
+    <img src="img/2.png" alt="Demo zoom" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  </a>
+</p>
 
 
 5. Pada file `main.dart`, tambahkan import witget_previews
@@ -88,3 +94,7 @@
 
     `Ctrl`+`C` kemudian `y` lalu tekan `Enter`
     <img>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
