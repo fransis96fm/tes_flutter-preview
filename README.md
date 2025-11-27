@@ -20,7 +20,7 @@
 
 3. Buka file main.dart di `<nama-project>\lib\main.dart`
    
-   <a href="gambar.png">
+   <a href="img/2.png">
       <img src="img/2.png" width="500">
    </a>  
 
